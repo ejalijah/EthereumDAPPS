@@ -3,7 +3,7 @@ Development of Decentralized Apps backed by Smart Contracts on Ethereum Platform
 
 ## Cyrptostar Dapp
 
-![npm](https://img.shields.io/npm/v/npm)
+![npm](https://img.shields.io/npm/v/6.14)
 
 **ERC-721 Token Name** = "Qazi Star Token"
 **ERC-721 Token Symbol** = "QEUR"
