@@ -6,7 +6,6 @@ This project demonstrate familiarization with the fundamentals concepts of a Eth
 
 ### Developer Tools
 Concepts like:
-
     - Ethereum Platform
       - MetaMask
       - Infura
