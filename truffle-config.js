@@ -21,6 +21,10 @@
  * phrase from a file you've .gitignored so it doesn't accidentally become public.
  *
  */
+const HDWalletProvider = require("truffle-hdwallet-provider");
+const Web3 = require("web3");
+const mnemonic = "then rigid rack crash inhale sick dawn joke carry sustain frame raw";
+const infuraKey = "4c1e2a8b0d0642d0b71c22f5a85c2d2a";
 
 // const HDWallet = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
@@ -61,7 +65,15 @@ module.exports = {
       // from: <address>,        // Account to send txs from (default: accounts[0])
       // websockets: true        // Enable EventEmitter interface for web3 (default: false)
     // },
-
+    rinkeby: {
+      provider: () => new HDWalletProvider(mnemonic, `https://rinkeby.infura.io/v3/${infuraKey}`),
+      network_id: 4,       // Rinkeby's id
+      gas: 2500000,        // Rinkeby has a lower block limit than mainnet
+      //confirmations: 2,    // # of confs to wait between deployments. (default: 0)
+      gasPrice: 20000000000,  // 20 gwei (in wei) (default: 100 gwei)
+      // timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+      // skipDryRun: true     // Skip dry run before migrations? (default: false for public nets )
+    },
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
     // ropsten: {
