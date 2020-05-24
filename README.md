@@ -6,23 +6,22 @@ This project demonstrate familiarization with the fundamentals concepts of a Eth
 
 ### Developer Tools
 Concepts like:
-    - Ethereum Platform
-      - MetaMask
-      - Infura
-      - Web3.js
-      - Remix IDE
-      - Ganache
-      - Geth
-      - Truffle
-      - Front-end web development
-        - HTML
-        - Javascript
-        - CSS
-    - Smart Contract Language
-      - Solidity
-    - Blockchain Identity
-    - Digital Assests
-    - Proof of Existance
+
+- Ethereum Platform
+	- MetaMask
+		- Infura
+		- Web3.js
+		- Remix IDE
+		- Ganache
+		- Geth
+		- Truffle
+		- Smart Contracts
+	- Front-End Web Development
+		- HTML
+		- Javascript
+		- CSS
+	- Smart Contract Language
+		- Solidity
 
 - **ERC-721 Token Name** = "Qazi Star Token"
 - **ERC-721 Token Symbol** = "QEUR"
