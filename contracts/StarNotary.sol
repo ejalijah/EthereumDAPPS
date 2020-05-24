@@ -76,9 +76,8 @@ contract StarNotary is ERC721 {
     function exchangeStars(uint256 _tokenId1, uint256 _tokenId2)
         public
         payable
-    {        
+    {
         //require(ownerOf(_tokenId1) == msg.sender || ownerOf(_tokenId2) == msg.sender);
-
         address addressOne = ownerOf(_tokenId1);
         address addressTwo = ownerOf(_tokenId2);
 
