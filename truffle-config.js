@@ -23,8 +23,8 @@
  */
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
-const mnemonic = "then rigid rack crash inhale sick dawn joke carry sustain frame raw";
-const infuraKey = "4c1e2a8b0d0642d0b71c22f5a85c2d2a";
+const mnemonic = "Enter your Metamask Seed";
+const infuraKey = "Enter Infura Key";
 
 // const HDWallet = require('truffle-hdwallet-provider');
 // const infuraKey = "fj4jll3k.....";
